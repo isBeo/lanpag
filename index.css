@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root{
+    background-color: #fff;
+ }
+
+
+body{
+    /* background-color: blue; */
+    padding: 0 10%;
+    margin-inline:auto;
+    /* outline:2px solid red; */
+    min-width: 780px;
+    max-width: 1024px;
+    /* background-color: navy; */
+}
+header{
+    background-color: #1f2937;
+    color:white;
+    padding:5px 50px 0px 50px ;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 5px solid white; */
+    width: 100%;
+    padding-inline:5px;
+}
+menu ul{
+    gap:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.wrapAll{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.wrapAll h4{
+    text-align: center;
+}
+.cardWrapper{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    padding:20px;
+}
+.wrapHero{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #1f2937;
+    padding: 50px;
+    height: 60vh;
+
+}
+.text{
+    /* outline:3px solid red ; */
+    width: 45%;
+    color:white;
+}
+.text p{
+    margin-block: 15px;
+}
+.img{
+    width:55%;
+    height: 100%;
+}
+button{
+    background-color: #3b82f5;
+    color:white;
+    padding: 10px;
+}
