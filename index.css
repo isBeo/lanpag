@@ -14,7 +14,7 @@ body{
     margin-inline:auto;
     /* outline:2px solid red; */
     min-width: 780px;
-    max-width: 1024px;
+    /* max-width: 1024px; */
     /* background-color: navy; */
 }
 header{
@@ -45,9 +45,14 @@ menu ul{
     display:flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    /* outline:1px solid tomato; */
+    justify-content: center;
 }
-.wrapAll h4{
+h4{
     text-align: center;
+    padding:30px;
+    /* outline:1px solid tomato; */
 }
 .cardWrapper{
     display:flex;
@@ -55,15 +60,20 @@ menu ul{
     width: 250px;
     height: 300px;
     padding:20px;
+    justify-content: center;
+    /* outline:1px solid red; */
 }
 .wrapHero{
     display:flex;
     justify-content: space-between;
     align-items: stretch;
     background-color: #1f2937;
-    padding: 50px;
-    height: 60vh;
-
+    padding: 120px;
+    /* max-height: 500px; */
+    /* column-gap: 50px; */
+}
+.wrapHero h2{
+    font-size: 4em;
 }
 .text{
     /* outline:3px solid red ; */
@@ -72,7 +82,9 @@ menu ul{
 }
 .text p{
     margin-block: 15px;
+    font-size: 1.8em;
 }
+
 .img{
     width:55%;
     height: 100%;
@@ -81,4 +93,5 @@ button{
     background-color: #3b82f5;
     color:white;
     padding: 10px;
+    font-size: 1.4em;
 }
