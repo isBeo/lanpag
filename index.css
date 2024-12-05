@@ -97,7 +97,33 @@ button{
 }
 
 .quote p{
-    outline:1px solid tomato;
+    /* outline:1px solid tomato; */
     font-size: 1.3em;
     padding:80px;
+    background-color: rgb(230, 231, 235);
+}
+
+.ctaWrapper{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(59, 130, 245);
+    color:white;
+    margin:50px 100px;
+    border-radius: 8px;
+    padding: 25px;
+}
+.ctaWrapper button{
+    /* border:none; */
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-self: end;
+    margin-inline:50px;
+
+}
+
+footer{
+    background-color: rgb(31, 42, 56);
+    color:white;
+    text-align: center;
+    padding:50px;
 }
